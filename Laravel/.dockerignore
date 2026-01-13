@@ -1,0 +1,25 @@
+# Ignore vendor (will be installed fresh)
+vendor/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore logs and cache
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Keep important files
+!.env.example
+!composer.json
+!composer.lock
+!artisan
